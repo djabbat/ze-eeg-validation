@@ -1,0 +1,33 @@
+# Data (download separately from public sources)
+data/
+results/
+*.edf
+*.bdf
+*.vhdr
+*.vmrk
+*.eeg
+*.set
+*.fdt
+*.mat
+*.tar.gz
+*.zip
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Output
+*.png
+*.pdf
+*.docx
