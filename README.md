@@ -2,9 +2,11 @@
 
 **Experimental EEG validation of Ze Theory (Tkemaladze) across the human lifespan.**
 
-Ze Theory proposes that the *cheating index* χ_Ze — a measure of how close a biosignal's binary switching rate is to the theoretical optimum v* = 0.45631 — serves as a biomarker of neurodynamic efficiency. This repository contains all analysis code supporting the findings reported in:
+Ze Theory proposes that the *cheating index* χ_Ze — a measure of how close a biosignal's binary switching rate is to the theoretical optimum v* = 0.45631 — serves as a group-level index of neurodynamic aging. This repository contains all analysis code supporting the findings reported in:
 
-> Tkemaladze J. *Ze Cheating Index (χ_Ze) as a Biomarker of Neurodynamic Efficiency: Experimental EEG Validation Across the Human Lifespan.* 2026.
+> Tkemaladze, J. (2026). *Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging: Experimental EEG validation across the human lifespan.* [Manuscript under review]
+
+**Note (Sec. 2.4):** Under the proxy method, χ_Ze is a monotonic transformation of f_peak at fixed f_s. Statistical inference is equivalent to standard alpha peak frequency analysis. The theoretical contribution of χ_Ze is expressing proximity to the Ze fixed point v*, independent of sampling rate.
 
 ---
 
@@ -195,10 +197,18 @@ AUC: proxy = **0.715** (acceptable), narrowband Ze = **0.689** (fair)
 
 ## Citation
 
+**APA 7:**
+```
+Tkemaladze, J. (2026). Ze cheating index (χ_Ze) as a group-level index of neurodynamic aging:
+Experimental EEG validation across the human lifespan. [Manuscript under review]
+https://github.com/djabbat/ze-eeg-validation
+```
+
+**BibTeX:**
 ```bibtex
 @article{tkemaladze2026ze_eeg,
-  title   = {{Ze} Cheating Index ($\chi_{{Ze}}$) as a Biomarker of Neurodynamic
-             Efficiency: Experimental {EEG} Validation Across the Human Lifespan},
+  title   = {{Ze} Cheating Index ($\chi_{{Ze}}$) as a Group-Level Index of Neurodynamic
+             Aging: Experimental {EEG} Validation Across the Human Lifespan},
   author  = {Tkemaladze, Jaba},
   year    = {2026},
   url     = {https://github.com/djabbat/ze-eeg-validation}
